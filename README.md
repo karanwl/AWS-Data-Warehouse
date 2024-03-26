@@ -2,9 +2,9 @@
 
 ## Overview
 
-This project provides the schema and ETL to create and populate an analytics database for the music streaming app Sparkify.
+This project provides the schema and ETL to create and populate a data warehouse in the cloud for analytics purposes at the music streaming app Sparkify.
 
-It has been designed as a PostgreSQL relational database in a star schema, which allows the Sparkify team to readily run queries to analyze user activity on their app, such as on what songs users are listening to. The scripts have been created in Python, leveraging its convenient wrapper around Postgres.
+The ETL and data warehouse has been built on AWS, with a PostgreSQL database and staging tables hosted on Amazon Redshift, pulling data from Amazon S3. The analytics tables have been arranged in a star schema to allow the Sparkify team to readily run queries to analyze user activity on their app, such as on what songs users are listening to. The scripts have been created in Python.
 
 ## Structure
 
